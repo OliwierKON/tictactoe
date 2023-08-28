@@ -40,9 +40,22 @@ public class Main {
     }
 
     public static void ai() {
+        boolean AiGame = false;
+        while (!AiGame) {
+            System.out.print(
+                    "Välj En Ruta Att Fylla Med Ett Kryss\n" +
+                            "   a     b     c\n" +
+                            "      |     |     \n" +
+                            "1  -  |  -  |  -  \n" +
+                            " _____|_____|_____\n" +
+                            "      |     |     \n" +
+                            "2  -  |  -  |  -  \n" +
+                            " _____|_____|_____\n" +
+                            "      |     |     \n" +
+                            "3  -  |  -  |  -  \n" +
+                            "      |     |     \n");
 
-        System.out.println("NUMMER 1");
-
+        }
     }
 
     public static void pvp() {
